@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical-section {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-content {
+    max-width: 1080px;
+    min-width: 480px;
+    /* width: 1080px; */
+    flex: auto;
+    border: 5px solid green;
+}
+
+#top, #footer {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+    width: 1080px;
+}
+
+#header-logo {
+    /* let the log pushing the menu all the way to the right */
+    flex: 1;
+    font-size: 24px;
+    font-weight:600;
+    color: #f9faf8;
+    height: 120px;
+    text-transform: capitalize;
+}
+
+#header-logo img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+#nav-menu {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-item {
+    display: flex;
+    /* padding: 4rem 0; */
+    /* gap: 50px; */
+    justify-content: space-between;
+    /* width: 800px; */
+    /* border: 1px solid red; */
+    flex: 1;
+}
+
+.hero-information {
+    /* max-width: 50%; */
+    /* min-width: 200px; */
+    flex: 1 1;
+}
+
+.hero-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight:bolder;
+    text-transform: capitalize;
+}
+
+.hero-secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hero-image {
+    /* max-height: 300px; */
+    max-width: 300px;
+    flex: 1 1;
+    border: 5px solid red;
+}
+
+.hero-image img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.hero-signup-button {
+    border: none;
+    border-radius: 3px;
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 24px
+}
+
+#main {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-transform: capitalize;
+}
