@@ -21,10 +21,7 @@ html, body {
 
 nav {
     display: flex;
-    /* justify-content: center; */
     align-items: center;
-    /* flex: auto; */
-    /* width: 1080px; */
     gap: 20px;
     flex: 1 1 auto;
     width: 100%;
@@ -39,6 +36,11 @@ nav {
     color: #f9faf8;
     height: 120px;
     text-transform: capitalize;
+}
+
+#nav-logo a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #nav-logo img {
@@ -174,6 +176,7 @@ nav {
 }
 
 .quote-author {
+    margin-top: 1rem;
     text-align: end;
     font-size: 1.5rem;
     font-style: normal;
@@ -229,4 +232,8 @@ nav {
     padding: 2rem 0 2rem;
     color: #e5e7eb;
     text-align: center;
+}
+
+#footer a {
+    color: inherit;
 }
