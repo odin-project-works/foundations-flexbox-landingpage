@@ -6,6 +6,11 @@ html, body {
     font-family: "Roboto", sans-serif;
 }
 
+.cross-screen-section {
+    max-width: 1080px;
+    min-width: 600px;
+}
+
 #top, #footer {
     background-color: #1F2937;
 }
@@ -15,8 +20,8 @@ html, body {
 #top {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 10px 200px;
-    min-width: 600px;
 }
 
 nav {
@@ -64,11 +69,6 @@ nav {
     display: flex;
     gap: 3rem;
     justify-content: center;
-}
-
-.hero-information {
-    max-width: 50rem;
-    min-width: 15rem;
 }
 
 .hero-main-text {
@@ -171,8 +171,6 @@ nav {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
-    max-width: 960px;
-    min-width: 480px;
 }
 
 .quote-author {
@@ -198,8 +196,6 @@ nav {
     align-items: center;
     gap: 5rem;
     padding: 1.5rem 4rem;
-    max-width: 960px;
-    min-width: 480px;
     flex: 1;
 }
 
